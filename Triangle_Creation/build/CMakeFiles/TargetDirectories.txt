@@ -1,0 +1,3 @@
+/home/arpit-singh/Documents/openGL/Triangle_Creation/build/CMakeFiles/Triangle_Creation_OpenGL.dir
+/home/arpit-singh/Documents/openGL/Triangle_Creation/build/CMakeFiles/edit_cache.dir
+/home/arpit-singh/Documents/openGL/Triangle_Creation/build/CMakeFiles/rebuild_cache.dir

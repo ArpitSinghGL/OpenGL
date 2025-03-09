@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Triangle_Creation_OpenGL.dir/triangle.cpp.o CMakeFiles/Triangle_Creation_OpenGL.dir/glad/glad.c.o -o Triangle_Creation_OpenGL  -lglfw 
