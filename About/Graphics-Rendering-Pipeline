@@ -1,0 +1,4 @@
+Graphics Rendering Pipeline is basically how we go from having "Data" to an actual "graphic" on the screen.
+
+Oversimplified version of the Graphics Rendering Pipeline:
+Data -> Vertex Shader -> Fragment(or Pixel) Shader -> Actual Graphics on the screen. 

@@ -1,0 +1,38 @@
+Shader: A shader is basically a program that runs on the GPU.
+
+Shaders allow us to program the GPU by allowing the programmers to tell the GPU what to do.
+We need to be able to program the GPU because we want to be able to tell the GPU "How" to draw a certain Graphic such as
+a Triangle (stuff like where do the vertex positions go, what color should the triangle be, how should it be drawn etc).
+The GPU does not know how to do this all by itself.
+We need to tell the GPU what to do with the data that we send to the GPU in the form of vertex buffer.
+
+Two most prominent shaders in the Graphics Rendering Pipeline:
+1. Vertex Shader
+2. Fragment Shader (also called Pixel Shader)
+
+Vertex Shader is a programmable shader, which is a small piece of code that runs on the Graphics Processing Unit (GPU)
+and performs calculations on input data.
+
+A vertex shader gets called for each and every vertex that we are trying to render once.
+Basically, a vertex shader is called once per vertex.
+
+The primary purpose of a vertex shader is to tell openGL, "where" exactly we want the vertex to be rendered on the 
+screen space or window.
+
+A vertex shader takes one or more vertices as input and outputs transformed vertices with updated attributes.
+
+A vertex is a point in 3D space that has various attributes like position, color, texture coordinates, normal vector etc.
+
+A vertex shader can modify any of these attributes as well as create new ones.
+
+Fragment Shader gets called once for all the pixels that are needed to be rasterized on the screen.
+Basically, a Fragment(or Pixel) shader is called once per pixel that needs to be rasterized on the window.
+
+Rasterization basically means getting drawn on the screen.
+The window is basically made up of pixels (kind of a pixel array).
+The vertices that we have specified, that make up our triangle, need to be filled in with pixels. This is what Rasterization
+does.
+The Pixel shader gets called once for each pixel in our Triangle that needs to get filled in.
+
+The primary purpose of the Fragment(or Pixel) shader is to determine the color of each pixel that needs to be rasterized
+on the screen.
